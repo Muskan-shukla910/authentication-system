@@ -4,7 +4,8 @@
   "description": "A simple authentication system with login, signup, and JWT-based user authentication.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx nodemon index.js"
   },
   "repository": {
     "type": "module",
@@ -21,6 +22,7 @@
   "dependencies": {
     "express": "^5.2.1",
     "mongoose": "^9.3.0",
-    "morgan": "^1.10.1"
+    "morgan": "^1.10.1",
+    "nodemon": "^3.1.14"
   }
 }
